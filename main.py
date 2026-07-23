@@ -16,4 +16,3 @@ def obtener_cuotas():
     if respuesta.status_code == 200:
         return respuesta.json()
     return {"error": "No se pudieron obtener las cuotas", "detalle": respuesta.text}
-
